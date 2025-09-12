@@ -1,0 +1,25 @@
+{
+    "name": "dentastico",
+    "type": "module",
+    "version": "0.0.1",
+    "scripts": {
+        "dev": "astro dev",
+        "build": "astro build",
+        "preview": "astro preview"
+    },
+    "dependencies": {
+        "@astrojs/svelte": "^7.1.1",
+        "@astrojs/vercel": "^8.2.7",
+        "@tailwindcss/vite": "^4.1.13",
+        "astro": "^5.13.7",
+        "svelte": "^5.38.8",
+        "tailwindcss": "^4.1.13"
+    },
+    "devDependencies": {
+        "prettier": "^3.6.2",
+        "prettier-plugin-astro": "^0.14.1",
+        "prettier-plugin-svelte": "^3.4.0",
+        "prettier-plugin-tailwindcss": "^0.6.14",
+        "typescript": "^5.9.2"
+    }
+}

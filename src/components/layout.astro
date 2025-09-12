@@ -1,0 +1,25 @@
+---
+import "../styles/style.css";
+import "../styles/font.css";
+
+interface Props {
+    title: string;
+    description: string;
+}
+---
+
+<html lang="it">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta name="description" content={Astro.props.description} />
+        <meta name="generator" content={Astro.generator} />
+        <meta name="robots" content="noindex, nofollow" />
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+        <title>{Astro.props.title} - Dentastico</title>
+    </head>
+
+    <body>
+        <slot />
+    </body>
+</html>

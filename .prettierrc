@@ -1,0 +1,35 @@
+{
+    "tabWidth": 4,
+    "printWidth": 80,
+    "semi": true,
+    "useTabs": false,
+    "singleQuote": false,
+    "bracketSpacing": true,
+    "jsxSingleQuote": false,
+    "bracketSameLine": false,
+    "singleAttributePerLine": false,
+    "endOfLine": "crlf",
+    "arrowParens": "avoid",
+    "trailingComma": "es5",
+    "quoteProps": "consistent",
+    "proseWrap": "preserve",
+    "htmlWhitespaceSensitivity": "css",
+    "embeddedLanguageFormatting": "auto",
+
+    "plugins": [
+        "prettier-plugin-astro",
+        "prettier-plugin-svelte",
+        "prettier-plugin-tailwindcss"
+    ],
+
+    "overrides": [
+        {
+            "files": "*.astro",
+            "options": { "parser": "astro" }
+        },
+        {
+            "files": "*.svelte",
+            "options": { "parser": "svelte" }
+        }
+    ]
+}
